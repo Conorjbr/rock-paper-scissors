@@ -8,20 +8,24 @@
     margin: 1%;
     padding: 10px;
     text-align: center;
-    height: 20%;
+    height: 40%;
+    border: 1px solid black;
 
   }
 
   .flex-item-left {
     background-color: #f1f1f1;
     padding: 10px;
-    flex: 50%;
+    flex: 25%;
+   
+    
   }
   
   .flex-item-right {
     background-color: dodgerblue;
     padding: 10px;
-    flex: 50%;
+    flex: 25%;
+   
   }
 
   .row {
@@ -54,3 +58,14 @@
     border-radius: 20px;
     text-align: center;
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+}
+
+body {
+  background-color: lightpink;
+   }
