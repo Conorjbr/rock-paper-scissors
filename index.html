@@ -16,23 +16,25 @@
 <body>
 
     <h1 class="center">Rock - Paper - Scissors</h1>
-    <div class ="flex-container">
-    <div class="flex-item-left">
+    
+    <div class ="grid-container">
+        <div class="grid-item">
         <img " src="assets/images/rock.jpeg" alt="Rocks">
-    </div>
-    <div class="flex-item-right", class="button">
+        </div>
+
+        <div class="grid-item" class="button">
             <button id="rock">Rock</button>
-            <button id="paper"></i>paper</button>
-            <button id="scissors"></i>scissors</button>
-    </div>
+            <button id="paper">paper</button>
+            <button id="scissors">scissors</button>
+        </div>
 
-    <div class="flex-item-left">
+        <div class="grid-item">
             <img src="assets/images/paper.jpeg" alt="Paper">
+        </div>
+       
     </div>
-
-    </div>
-
-    <div class="center">
+    
+     <div class="center">
     <h2>Your Choice: <span id="user-choice"></span></h2>
     <h2>Computer Choice: <span id="computer-choice"></span></h2>
     <h2>Result: <span id="result"></span></h2>
@@ -43,8 +45,6 @@
         <p class="scores">Win <span id="score">0</span></p>
         <p class="scores">Lose <span id="c-score">0</span></p>
     </div>
-
-
 
     <script src="assets/script.js" charset="utf-8"></script>
 </body>
