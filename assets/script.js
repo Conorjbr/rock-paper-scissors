@@ -1,3 +1,5 @@
+//Set up main game variables
+
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
@@ -6,4 +8,14 @@ let userChoice
 let computerChoice
 let result
 let userScore
-let computerScore = 0;
+let computerScore
+
+//Add event listener for user choice
+
+//Game functions
+
+//Computer choice function
+
+//Calulate result function, compare user choice with computer choice
+
+//Scoreboard functions
