@@ -12,7 +12,7 @@ let computerScore
 
 //Event listener for user choice
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    userChoice = e.target.id
+    userChoice = e.target.innerHTML
     userChoiceDisplay.innerHTML = userChoice
     generateComputerChoice()
     getResult()
