@@ -41,7 +41,7 @@ function generateComputerChoice() {
 function getResult() {
   if (computerChoice === userChoice) {
     result = 'its a draw!'
-    //incrementDraw();
+    incrementDraw();
   }
   if (computerChoice === 'rock' && userChoice === "paper") {
     result = 'you win!';
@@ -87,8 +87,10 @@ document.getElementById("c-score").innerText = ++oldScore;
 }
 
 //Takes current draws score from the DOM and increments it by 1
-//function incrementDraw(){
-    
+function incrementDraw(){
+let oldScore = parseInt(document.getElementById("draw").innerText);
+document.getElementById("draw").innerText = ++oldScore;
+}  
 
 
 
