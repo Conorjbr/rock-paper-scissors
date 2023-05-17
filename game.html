@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<!-- Nav bar -->
     <nav>
         <ul id="menu">
             <a href ="index.html">Home</a>
@@ -22,48 +22,58 @@
         </ul>
     </nav>
 
+<!-- Game title -->
     <h1 class="center">Rock - Paper - Scissors</h1>
-    
+   
+    <!-- Pictures at top left of screen, rock & paper -->
     <div class ="grid-container">
         <div class="grid-item">
         <img src="assets/images/rock.jpeg" alt="Rocks">
         <img src="assets/images/paper.jpeg" alt="Paper">
         </div>
 
+        <!-- User choice buttons -->
         <div class="grid-item" class="button">
             <button id="rock" class="fas fa-hand-rock"><br>rock</button>
             <button id="paper" class="fas fa-hand-paper"><br>paper</button>
             <button id="scissors" class="fas fa-hand-scissors"><br>scissors</button>
         </div>
 
+        <!-- Pictures at top right of screen, rock & paper -->
         <div class="grid-item">
             <img src="assets/images/paper.jpeg" alt="Paper">
             <img src="assets/images/rock.jpeg" alt="Rocks">
         </div>
-       
     </div>
     
+     <!-- Picture at bottom left of screen, scissors -->
      <div class="grid-container">
         <div class="grid-item">
             <img src="assets/images/left-scissors.jpeg" alt="Left-scissors">
         </div>
+
+        <!-- Game results, win lose & draw, & reset scores button -->
         <div class="grid-item">
         <h4>Your Choice: <span id="user-choice"></span></h4>
         <h4>Computer Choice: <span id="computer-choice"></span></h4>
         <h4>Result: <span id="result"></span></h4>
         <button id="reset-button">Reset</button>
         </div>
+
+        <!-- Picture at bottom right of screen, scissors -->
         <div class="grid-item">
             <img src="assets/images/scissors.jpeg" alt="Scissors">
         </div>
     </div>
 
+    <!-- Game scoreboard -->
     <div class="score-area">
         <h3 class="scores">Win <span id="score">0</span></h3>
         <h3 class="scores">Lose <span id="c-score">0</span></h3>
         <h3 class="scores">Draw <span id="draw">0</span></h3>
     </div>
 
+    <!-- Link to js file -->
     <script src="assets/js/script.js" charset="utf-8"></script>
 </body>
 
