@@ -67,7 +67,7 @@ I added a navigation bar using an unordered list to create two links as follows 
     Home
     Game
 
-Alt text
+![Alt text](testing/nav-bar.jpg)
 
 
 Alt text
@@ -82,20 +82,19 @@ I felt the site needed some aesthetic appeal. If time and ability allowed I woul
 
 
 
-My form takes a very simple design approach and is currently not linked to a database to receive the user-posted information.
-
-Alt text
 
 
 
 
-Testing
 
-Validator Testing
+
+## Testing
+
+### Validator Testing
 HTML tested with W3C markup validation service
 CSS tested with W3C CSS validation service
 
-    HTML
+#### HTML
 
     A number of errors were found in the HTML code as noted below.
     ![Alt text](testing/html%20testing.jpg)
@@ -109,12 +108,12 @@ CSS tested with W3C CSS validation service
 
     
     Style.css
-
-    ![Alt text](testing/css%20testing.jpg)
+![Alt text](testing/css%20testing.jpg)
+    
 
     
     script.js
-
+![Alt text](testing/jshint-testing.jpg)
 
 Manual Testing
 
