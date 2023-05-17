@@ -1,5 +1,10 @@
-//Set up main game variables
+/* This script was created using the following tutorial:
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWVENnNobUVYTFFkVmxFajVDLVFHaEpWTVdzQXxBQ3Jtc0ttTXZfQjkyLWxNQy0xS3NmcExxUThBaWtnZjBvVWtRTmlZQzlOVk9wbTMxZHpBZkpweVNaajRhU3c1ei1xREdEVUI1d1dqdUdmMEZhNmR5MVF5c0xnOEtNSk5JdjhhWV90TFR0VDh1X1c4VFRjZE5Nbw&q=https%3A%2F%2Fgithub.com%2Fkubowania%2Frock-paper-scissors-x3&v=ec8vSKJuZTk
+I have borrowed code from this tutorial to assist with creation of the game.
+and I have also personalised some of the code for my own styling and added to it.
+*/
 
+//Set up main game variables
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
@@ -72,7 +77,8 @@ function getResult() {
 
 }
 //Scoreboard functions
-//Tekes current user score from the DOM and increments it by 1
+//Takes current user score from the DOM and increments it by 1
+//I have borrowed the functions to run this from the CI "Love Maths" walk-through project and ammended and modifirf with my own code.
 function incrementWin(){
       
   let oldScore = parseInt(document.getElementById("score").innerText);
@@ -95,3 +101,4 @@ document.getElementById("draw").innerText = ++oldScore;
 
 
 //Game level change functions
+//These are to be added as future upgrade , see Readme file
