@@ -1,25 +1,26 @@
-Rock Paper Scissors
-A website to enable users to play a classic game of chance
+# Rock Paper Scissors
+## A website to enable users to play a classic game of chance
 
 My goal was to create a historical website to give some basic biograpical information, pictures, bibliography etc. of a writer and historical period in which I have an interest.
 
-View the live project here : 
-Contents
+View the live project here : [rock-paper-scissors](https://conorjbr.github.io/rock-paper-scissors/)
 
-    User Experience (UX)
-    General site design
-    Responsivenes
-    Features
-    Testing
-    Deployment
-    Credits
-    Conclusions
+## Contents
 
-User Experience (UX)
-Target audience
+    1. User Experience (UX)
+    2. General site design
+    3. Responsivenes
+    4. Features
+    5. Testing
+    6. Deployment
+    7. Credits
+    8. Conclusions
+
+## User Experience (UX)
+### Target audience
 
 
-First Time User
+### First Time User
 
 
 
@@ -28,25 +29,25 @@ Site Aims
 
 
 
-General design of site
+### General design of site
 
 
 I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do. I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient. See sketches below.
 
-Wireframe preliminary sketch 1
+#### Wireframe preliminary sketch 1
 
-Wireframe preliminary sketch 2
+#### Wireframe preliminary sketch 2
 
-Wireframe page 1 final Wireframe page 2 & 3 final Wireframe page 1 final
+#### Wireframe page 1 final Wireframe page 2 & 3 final Wireframe page 1 final
 
 
-Responsiveness
+## Responsiveness
 
 I checked the URL in the "Am I Responsive" tool at Am I responsive,
 
 See results below.
+![Alt text](testing/responsive-test.jpg)
 
-Alt text
 
 This checks the website responsiveness at the following screen sizes Desktop 1600x992px scaled down to scale(0.3181) Laptop 1280x802px scaled down to scale(0.277) Tablet 768x1024px scaled down to scale(0.219) Mobile 320x480px scaled down to scale(0.219)
 
