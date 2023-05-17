@@ -24,16 +24,23 @@
 
 /*nav menu*/
 #menu {
-  display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   padding: 10px 0 10px 0;
   border-radius: 10px;
   background: rgb(161, 208, 226);
   color: white;
-  margin: 5px auto;
-  width: 25%;
-  
+  margin: 10px auto;
+  width: 10%;
+}
+
+/*Nav menu - remove underline from links*/
+a {
+  text-decoration: none;
+  display: inline;
+  margin-left: 5px;
+  margin-right:5px;
 }
 
 /*nav menu selection indicator*/

@@ -78,16 +78,15 @@ function getResult() {
 }
 //Scoreboard functions
 //Takes current user score from the DOM and increments it by 1
-//I have borrowed the functions to run this from the CI "Love Maths" walk-through project and ammended and modifirf with my own code.
+//I have borrowed some of the functions to run this from the CI "Love Maths" walk-through project and ammended and modifirf with my own code.
+
 function incrementWin(){
-      
-  let oldScore = parseInt(document.getElementById("score").innerText);
+let oldScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++oldScore;
 }
 
 //Takes current computer score from the DOM and increments it by 1
 function incrementLose(){
-  
 let oldScore = parseInt(document.getElementById("c-score").innerText);
 document.getElementById("c-score").innerText = ++oldScore;
 }
@@ -101,4 +100,4 @@ document.getElementById("draw").innerText = ++oldScore;
 
 
 //Game level change functions
-//These are to be added as future upgrade , see Readme file
+//These are to be added as future upgrade to 5-option game , see Readme file
