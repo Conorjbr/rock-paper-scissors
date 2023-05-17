@@ -5,47 +5,47 @@ and I have also personalised some of the code for my own styling and added to it
 */
 
 //Set up main game variables
-const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('#rock,#paper,#scissors')
-let userChoice
-let computerChoice
-let result
-let userScore
-let computerScore
+const computerChoiceDisplay = document.getElementById('computer-choice');
+const userChoiceDisplay = document.getElementById('user-choice');
+const resultDisplay = document.getElementById('result');
+const possibleChoices = document.querySelectorAll('#rock,#paper,#scissors');
+let userChoice;
+let computerChoice;
+let result;
+//let userScore
+//let computerScore
 
 //Event listener for user choice
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice
-    generateComputerChoice()
-    getResult()
-  }))
+    userChoice = e.target.id;
+    userChoiceDisplay.innerHTML = userChoice;
+    generateComputerChoice();
+    getResult();
+  })) ;
   
 
 //Game functions
 
 //Function, uses random numbers to create and display the computer's choice for the game
 function generateComputerChoice() {
-  const randomNumber = Math.floor(Math.random() * 3) + 1 
+  const randomNumber = Math.floor(Math.random() * 3) + 1 ;
   
   if (randomNumber === 1) {
-    computerChoice = 'rock'
+    computerChoice = 'rock';
   }
   if (randomNumber === 2) {
-    computerChoice = 'scissors'
+    computerChoice = 'scissors';
   }
   if (randomNumber === 3) {
-    computerChoice = 'paper'
+    computerChoice = 'paper';
   }
-  computerChoiceDisplay.innerHTML = computerChoice
+  computerChoiceDisplay.innerHTML = computerChoice;
 }
 
 //Calulate result function, compare user choice with computer choice
 function getResult() {
   if (computerChoice === userChoice) {
-    result = 'its a draw!'
+    result = 'its a draw!';
     incrementDraw();
   }
   if (computerChoice === 'rock' && userChoice === "paper") {
@@ -73,7 +73,7 @@ function getResult() {
     result = 'you lost!';
     incrementLose();
   }
-    resultDisplay.innerHTML = result
+    resultDisplay.innerHTML = result;
 
 }
 //Scoreboard functions

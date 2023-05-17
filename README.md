@@ -96,9 +96,20 @@ CSS tested with W3C CSS validation service
 
     HTML
 
+    A number of errors were found in the HTML code as noted below.
+    ![Alt text](testing/html%20testing.jpg)
         
+    These were addressed and corrected and the final outputs from validator are as follows
 
+    Home page
+
+
+    Game Page
+
+    
     Style.css
+
+    ![Alt text](testing/css%20testing.jpg)
 
     
     script.js
