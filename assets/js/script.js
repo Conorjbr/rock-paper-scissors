@@ -97,6 +97,17 @@ let oldScore = parseInt(document.getElementById("draw").innerText);
 document.getElementById("draw").innerText = ++oldScore;
 }  
 
+//Reset scores button, resets all scores to 0
+//Event listener for reset button
+document.getElementById("reset-button").addEventListener("click", resetScore);
+function resetScore(){
+  document.getElementById("score").innerText = 0;
+  document.getElementById("c-score").innerText = 0;
+  document.getElementById("draw").innerText = 0;
+}
+
+
+
 
 
 //Game level change functions
