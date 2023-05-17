@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<!-- Nav bar -->
     <nav>
         <ul id="menu">
             <a href ="index.html" class="active">Home</a>
@@ -31,10 +31,21 @@
         <img src="assets/images/paper.jpeg" alt="Paper">
         </div>
 
-      <div class="grid-item" class="button">
-            <button id="rock" class="fas fa-hand-rock"><br>rock</button>
+      <div class="grid-item">
+            <h2>The Classic Game of Chance!</h2>
+
+            <h2>How To Play !</h2>
+            <p>
+                <ul class="instructions">
+                    <li>Make your choice by pressing the buttons</li>
+                    <li>Computer will make a random choice</li>
+                    <li>Computer will compare the user choice with computer choice and establish who wins</li>
+                </ul>
+            </p>
+                     
+            <!--<button id="rock" class="fas fa-hand-rock"><br>rock</button>
             <button id="paper" class="fas fa-hand-paper"><br>paper</button>
-            <button id="scissors" class="fas fa-hand-scissors"><br>scissors</button>
+            <button id="scissors" class="fas fa-hand-scissors"><br>scissors</button>-->
         </div>
 
         <div class="grid-item">
@@ -49,20 +60,34 @@
             <img src="assets/images/left-scissors.jpeg" alt="Left-scissors">
         </div>
         <div class="grid-item">
+            <h2>How To Win !</h2>
+            <p>
+                <ul class="instructions">
+                    <li>Rock smashes scissors, rock wins</li>
+                    <li>Paper wraps around rock, paper wins</li>
+                    <li>Scissors cuts paper, scissors wins</li>
+                    <li>User choice and computer choice the same - result draw</li>
+                </ul>
+            </p>
+
+        </div>
+        <!--<div class="grid-item">
         <h4>Your Choice: <span id="user-choice"></span></h4>
         <h4>Computer Choice: <span id="computer-choice"></span></h4>
         <h4>Result: <span id="result"></span></h4>
         <button id="reset-button">Reset</button>
-        </div>
+        </div>-->
         <div class="grid-item">
             <img src="assets/images/scissors.jpeg" alt="Scissors">
         </div>
     </div>
 
-    <div class="score-area">
-        <h3 class="scores">Win <span id="score">0</span></h3>
+    <div class="score-area" class="grid-item">
+        <p>See your score in the scoreboard at bottom of page</p>
+        <p>Press reset button to set scores to zero and start again</p>
+        <!--<h3 class="scores">Win <span id="score">0</span></h3>
         <h3 class="scores">Lose <span id="c-score">0</span></h3>
-        <h3 class="scores">Draw <span id="draw">0</span></h3>
+        <h3 class="scores">Draw <span id="draw">0</span></h3>-->
     </div>
 
     <script src="assets/js/script.js" charset="utf-8"></script>
