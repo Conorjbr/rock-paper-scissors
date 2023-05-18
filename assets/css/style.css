@@ -90,14 +90,16 @@ body {
 /*Styling for scoreboard*/
 .score-area {
     margin: auto;
-    margin-top: 7px;
+    margin-top: 0px;
     width: 60%;
+    height :fit-content;
     border: 1px solid black;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
     background-color: darkcyan;
     color: rgb(248, 249, 250);
     border-radius: 20px;
+    
 }
     
 /*Responsive styling for small screens*/
