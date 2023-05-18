@@ -32,7 +32,7 @@
   background: rgb(161, 208, 226);
   color: white;
   margin: 10px auto;
-  width: 10%;
+  width: 30%;
 }
 
 /*Nav menu - remove underline from links*/
@@ -107,6 +107,28 @@ body {
     img {
       display: none;
     }
+
+    #menu {
+      width: 55%;
   }
 
+  .center {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px;
+    font-size:150%;
 
+  }
+
+  #rock, #paper, #scissors{
+    height: 60px;
+    margin: 5px;
+  }
+
+  .grid-item {
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;  
+  }
+  }
