@@ -35,11 +35,17 @@ Site Aims
 I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do. I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient. See sketches below.
 
 #### Wireframe preliminary sketch 1
-
+![Alt text](assets/wireframes/wireframe-i.jpg)
+Home page -  small screen
 #### Wireframe preliminary sketch 2
-
-#### Wireframe page 1 final Wireframe page 2 & 3 final Wireframe page 1 final
-
+![Alt text](assets/wireframes/wireframe-ii.jpg)
+Game page - small screen
+#### Wireframe preliminary sketch 3
+![Alt text](assets/wireframes/wireframe-iii.jpg)
+Home page - large screen
+#### Wireframe preliminary sketch 4
+![Alt text](assets/wireframes/wireframe-iv.jpg)
+Game page - large screeen
 
 ## Responsiveness
 
@@ -54,14 +60,11 @@ This checks the website responsiveness at the following screen sizes Desktop 160
 Overall the responsiveness looked acceptable. I also checked all pages and manipulated screen size with the DevTools to check this and found results mostly acceptable.
 
 Following further review & discussions with fellow students and my mentor. I realised that the responsiveness of my constacts page at 360px was in fact not acceptable and I modified styling of this page further to improve this. I mainly used dev tools to check resolution at the various sizes and once I got the hang of settting the screen width correctly I found this worked OK for me. I feel the responsiveness is acceptable at the various screen sizes.
-Features
-Hero Image
 
+## Features
 
-Hero Image
-
-Navigation Bar
-
+### Home Page
+#### Nav bar
 I added a navigation bar using an unordered list to create two links as follows ;
 
     Home
@@ -69,22 +72,29 @@ I added a navigation bar using an unordered list to create two links as follows 
 
 ![Alt text](testing/nav-bar.jpg)
 
+#### Main header
+#### Game instructions
+#### How to win instructions
+#### Scoring / Reset scores instrutions
 
-Alt text
-Landing page image
+### Game Page
+#### Nav bar
+I added a navigation bar using an unordered list to create two links as follows ;
 
-As noted above I felt that this was an aesthetically pleasing, artistic and interesting image for the user to begin their interaction with the site.
+    Home
+    Game
+
+![Alt text](testing/nav-bar.jpg)
+
+#### Buttons for user to make choice
+#### Display are for user choice, computer choice and gamre result
+#### Scoreboard area with reset button
 
 
 
+As noted above I felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
 
-I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand this page a lot further.
-
-
-
-
-
-
+I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand the styling of this page a lot further.
 
 
 
@@ -97,7 +107,7 @@ CSS tested with W3C CSS validation service
 #### HTML
 
     A number of errors were found in the HTML code as noted below.
-    ![Alt text](testing/html%20testing.jpg)
+![Alt text](testing/html%20testing.jpg)
         
     These were addressed and corrected and the final outputs from validator are as follows
 
@@ -115,7 +125,7 @@ CSS tested with W3C CSS validation service
     script.js
 ![Alt text](testing/jshint-testing.jpg)
 
-Manual Testing
+### Manual Testing
 
     Navigation Menu
 
@@ -140,11 +150,15 @@ Manual Testing
        Verify that game page link is working and link to correct external site,
             test result - pass
         
-        Veriify that game choices operate correctly
-        Verify that computer choices operate correctly
-        Verify that reult calulation works and is diplayed correctly
+        Veriify that game choices operate correctly.
+            test result - pass
+        Verify that computer choices operate correctly.
+            test result - pass
+        Verify that reult calulation works and is diplayed correctly.
+            test result - pass
         Verify that scoreboard increments "win, "lose" & "draw" as appropriate.
-        Verify that score rest button sets all scores back to 0
+            test result - pass
+        Verify that score rest button sets all scores back to 0.
        
 
   
@@ -153,13 +167,14 @@ Unfixed Bugs
 
     None
 
-Accessibility Testing
-Lighthouse testing.
+### Accessibility Testing
+#### Lighthouse testing.
 
-I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. A
-Alt text
+I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
 
-Deployment
+
+
+### Deployment
 
 The live link can be found here - 
 
@@ -203,9 +218,9 @@ OR
     Download ZIP file
     Create a new repository using downloaded ZIP file.
 
-Credits
+### Credits
 
-Content
+#### Content
 
     Images
 
@@ -214,13 +229,9 @@ Content
     CSS
 
     Javascript
+
+    Help & Inspiration
     
-
-
-
-    
-
-Code
 
     W3 schools
         Various tips and trick to get the css styling to work.
@@ -248,24 +259,19 @@ Code
 
 Project Conclusions
 
-I found myself very confused at the start of this project as I did not have any previous experience of html or css. I found that I learned a lot about both technologies very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about CSS and HTML and about how to approach putting together a coding project. I am now keen to put this knowledge to further use.
+I found myself very confused at the start of this project as I did not have any previous experience of Javascript and found the lossons and challenges very difficult as I worked through them. I found that I learned a lot about this language very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about Javascrpt and about how to approach putting together a coding project. I am now keen to put this knowledge to further use.
+
 Learnings from this project
 
-I have learned to apply the basics of html and css styling. This has been more difficult than I thought it would be, particularly the CSS. It appeared to me from the walk-through "Love-Running" project that things would come together quite readily once the main structure was in place. This very much proved to not be the case and I was surprised at the amount of time the styling took. I also was surprised at how much effort was required to get the responsiveness to work to an acceptable level. I have found a number of solutions to repeated issues such as centring elements on a page etc. but I still find that positioning elements is something I would like to practice further in order get more comfortable with.
+I have learned to apply the basics of Jvascript to manipulate the DOM.  I have also learned to use html and css styling with more fluency than in the first project.  This has been more difficult than I thought it would be, particularly the JS. 
+
 Things I would do differently if starting again
 
-    Engage with mentor earlier in the project development.
-    Not put myself under time pressure, ie start earlier.
-    Spend more time planning the styling.
-    I would start with small screen size and work up to larger screens when setting up the responsiveness @media queries. I did it by starting with large screen and this caused me lot of issues with the smaller screen sizes.
-    I would do wireframes of screens at the smaller sizes as well as the larger ones. I only did wireframes at landscape and had to figure out the styling for smaller sizes as I went along.
+
 
 Future improvements to the site
 
-    Improve the responsiveness at smaller sizes by adding features such as burger menus etc.
-    Add another page to expand out the biography section / remove biography content from home page altogether.
-    Improve the gallery styling & add captions to all images.
-    Add video footage.
+
 
 Acknowledgements & thanks
 
