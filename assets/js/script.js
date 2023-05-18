@@ -12,8 +12,7 @@ const possibleChoices = document.querySelectorAll('#rock,#paper,#scissors');
 let userChoice;
 let computerChoice;
 let result;
-//let userScore
-//let computerScore
+
 
 //Event listener for user choice
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
