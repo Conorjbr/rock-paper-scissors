@@ -1,7 +1,7 @@
 /* This script was created using the following tutorial:
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWVENnNobUVYTFFkVmxFajVDLVFHaEpWTVdzQXxBQ3Jtc0ttTXZfQjkyLWxNQy0xS3NmcExxUThBaWtnZjBvVWtRTmlZQzlOVk9wbTMxZHpBZkpweVNaajRhU3c1ei1xREdEVUI1d1dqdUdmMEZhNmR5MVF5c0xnOEtNSk5JdjhhWV90TFR0VDh1X1c4VFRjZE5Nbw&q=https%3A%2F%2Fgithub.com%2Fkubowania%2Frock-paper-scissors-x3&v=ec8vSKJuZTk
-I have borrowed code from this tutorial to assist with creation of the game.
-and I have also personalised some of the code for my own styling and added to it.
+I have used some of the code from this tutorial to help with creation of the game.
+and I have also personalised some of this code and added to it & crated my own styling.
 */
 
 //Set up main game variables
@@ -79,6 +79,7 @@ function getResult() {
 //Takes current user score from the DOM and increments it by 1
 //I have borrowed some of the functions to run this from the CI "Love Maths" walk-through project and ammended and modifirf with my own code.
 
+//Takes current user score from the DOM and increments it by 1
 function incrementWin(){
 let oldScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++oldScore;
