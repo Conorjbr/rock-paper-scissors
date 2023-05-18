@@ -121,14 +121,15 @@ body {
 
   }
 
-  #rock, #paper, #scissors{
+  #rock, #paper, #scissors, #reset-button{
     height: 60px;
     margin: 5px;
   }
 
-  .grid-item {
+  .grid-item, .score-area {
     padding: 0px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;  
   }
+
   }
