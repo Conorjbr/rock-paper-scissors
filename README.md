@@ -1,7 +1,7 @@
 # Rock Paper Scissors
 ## A website to enable users to play a classic game of chance
 
-My goal was to create a historical website to give some basic biograpical information, pictures, bibliography etc. of a writer and historical period in which I have an interest.
+My goal was to create a simple game website to enable users to play the classic gamof chance, Rock-Paper-Scissors.. I chose this game because it has a simplet format and the Javascript functionality seemed to be within my skill level to achieve.  I had originally selectes another game called "Mancala" to use for my project but, after discussions with my mentor, it was clear that this would be beyond my current capabilities.
 
 View the live project here : [rock-paper-scissors](https://conorjbr.github.io/rock-paper-scissors/)
 
@@ -17,16 +17,22 @@ View the live project here : [rock-paper-scissors](https://conorjbr.github.io/ro
     8. Conclusions
 
 ## User Experience (UX)
+
+I decided that the game should consist of two main pages, one instructions page and one game page.
+I also wanted the game to keep score of the win, lose and draws and to have a reset butt to det the scores back to zero when required.
+
+The styling I chose was a simple layout with a number of images to illustrate the game to the left and right of the screen.  
+I styled the buttons with both icons and word descriptions.
+I picked a colour scheme with fairly high contrast and which I felt was reasonably visually pleasing.
+
 ### Target audience
+My target audience is anyone who has played this game in the real world and wants to have a bit of fun playing it online.  The game can also be used by kids (& adults!) to make a decision on an inpartial basis on such important issues as "who goes first?" , "who gets the last piece of cake?"  etc. etc. 
 
 
 ### First Time User
+I wanted the first time user to intuitively grasp the principles of the game and to be able to play the game, keep the scores and reset the scores with minimal instructions.
 
-
-
-As a return user I will be using the contacts page and possibly the bibliography page also.
-Site Aims
-
+As a return user I be using the scoreboard and scoreboard reset functions.
 
 
 ### General design of site
@@ -47,6 +53,9 @@ Home page - large screen
 ![Alt text](assets/wireframes/wireframe-iv.jpg)
 Game page - large screeen
 
+I used a basic style layout to make a visually attractive and easily navigable site.
+I added a nav bar to enable easy navigation from the home (instructions) page to the game page and back again.  I did not add a clickable page header as I felt that this ws not necessary for the effective operation of the site,
+
 ## Responsiveness
 
 I checked the URL in the "Am I Responsive" tool at Am I responsive,
@@ -57,13 +66,16 @@ See results below.
 
 This checks the website responsiveness at the following screen sizes Desktop 1600x992px scaled down to scale(0.3181) Laptop 1280x802px scaled down to scale(0.277) Tablet 768x1024px scaled down to scale(0.219) Mobile 320x480px scaled down to scale(0.219)
 
-Overall the responsiveness looked acceptable. I also checked all pages and manipulated screen size with the DevTools to check this and found results mostly acceptable.
+Overall the responsiveness looked acceptable. I also checked all pages and manipulated screen size with the DevTools to check this and found results acceptable.
 
-Following further review & discussions with fellow students and my mentor. I realised that the responsiveness of my constacts page at 360px was in fact not acceptable and I modified styling of this page further to improve this. I mainly used dev tools to check resolution at the various sizes and once I got the hang of settting the screen width correctly I found this worked OK for me. I feel the responsiveness is acceptable at the various screen sizes.
+Following further review & discussions with fellow students and my mentor. I realised that the responsiveness of my contacts page at 360px was in fact not acceptable and I modified styling of this page further to improve this and to ensure that scores area visible while palying the game on a small screen.  I feel the responsiveness is acceptable at the various screen sizes.
 
 ## Features
 
 ### Home Page
+
+I felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
+
 #### Nav bar
 I added a navigation bar using an unordered list to create two links as follows ;
 
@@ -73,28 +85,29 @@ I added a navigation bar using an unordered list to create two links as follows 
 ![Alt text](testing/nav-bar.jpg)
 
 #### Main header
+
 #### Game instructions
+
 #### How to win instructions
+
 #### Scoring / Reset scores instrutions
 
 ### Game Page
+
 #### Nav bar
-I added a navigation bar using an unordered list to create two links as follows ;
-
-    Home
-    Game
-
-![Alt text](testing/nav-bar.jpg)
+Added as per home page.
 
 #### Buttons for user to make choice
+
 #### Display are for user choice, computer choice and gamre result
+
 #### Scoreboard area with reset button
 
 
 
-As noted above I felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
-
 I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand the styling of this page a lot further.
+
+I would also have liked to add a further level to the game with 5 options  (ie Rock, Paper, Scissors, Lizard, Spock) and to have the game automatically move to the higher level when a certain score was reached.  I struggled with the functions to achieve the auto level change so I decided to put thi on my list of future improvements.
 
 
 
@@ -114,6 +127,7 @@ CSS tested with W3C CSS validation service
     Home page
 
 
+
     Game Page
 
     
@@ -127,7 +141,7 @@ CSS tested with W3C CSS validation service
 
 ### Manual Testing
 
-    Navigation Menu
+##### Navigation Menu
 
         Verify that all the links link to the correct pages and there are no broken links,
             test result - pass
@@ -135,7 +149,7 @@ CSS tested with W3C CSS validation service
         Verify that hover effects work consistently on all links,
             test result - pass
 
-    Home Page
+##### Home Page
 
         Verify that images are not pixellated and responsive at the required screen sizes,
             test result - pass
@@ -146,11 +160,10 @@ CSS tested with W3C CSS validation service
         Verify that game page link is working and link to correct external site,
             test result - pass
 
-    Game page
+##### Game page
        Verify that game page link is working and link to correct external site,
             test result - pass
-        
-        Veriify that game choices operate correctly.
+        Verify that game choices operate correctly.
             test result - pass
         Verify that computer choices operate correctly.
             test result - pass
@@ -159,10 +172,8 @@ CSS tested with W3C CSS validation service
         Verify that scoreboard increments "win, "lose" & "draw" as appropriate.
             test result - pass
         Verify that score rest button sets all scores back to 0.
+            test result - pass
        
-
-  
-
 Unfixed Bugs
 
     None
@@ -173,10 +184,9 @@ Unfixed Bugs
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
 
 
-
 ### Deployment
 
-The live link can be found here - 
+The live link can be found here - https://conorjbr.github.io/rock-paper-scissors/
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
@@ -223,21 +233,31 @@ OR
 #### Content
 
     Images
+    
+
 
     HTML
 
+    W3schools
+    My previous project (Olover St. John Gogarty) Nav bar
+
     CSS
+    W3 schools
+
 
     Javascript
+    Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
+    This was used to create the basic functions for the game which I modified and added to.
+
+    Love Maths run through project - ideas for creating the score boards.
 
     Help & Inspiration
     
-
     W3 schools
         Various tips and trick to get the css styling to work.
 
     Love Maths project
-        SCore board increment functions
+        Score board increment functions
 
     coder coder !
         Organising divs and applying correct styling
@@ -259,7 +279,7 @@ OR
 
 Project Conclusions
 
-I found myself very confused at the start of this project as I did not have any previous experience of Javascript and found the lossons and challenges very difficult as I worked through them. I found that I learned a lot about this language very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about Javascrpt and about how to approach putting together a coding project. I am now keen to put this knowledge to further use.
+I found myself very confused at the start of this project as I did not have any previous experience of Javascript and found the course lessons and challenges very difficult as I worked through them. I found that I learned a lot about this language very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about Javascript and about how to approach putting together a coding project. I am now keen to put this knowledge to further use.
 
 Learnings from this project
 
@@ -267,10 +287,13 @@ I have learned to apply the basics of Jvascript to manipulate the DOM.  I have a
 
 Things I would do differently if starting again
 
+Watch more Youtube videos and JS guides and tutorials outside of the course.
+Not get so stuck in completing all of the lesson challenges as these took a long time and I don't think I learned a lot from them in to get this project completed.  I plan to go through the lessons again now using the experience with JS that I have gained from the project.
 
 
 Future improvements to the site
 
+I would like to add the extrac game levels and enable automatic change of game level when a certain number of "wins" is scored.  I would also like to experiment further with more sophisticated styling of the game elements.
 
 
 Acknowledgements & thanks
