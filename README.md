@@ -185,10 +185,9 @@ Unfixed Bugs
 #### Lighthouse testing.
 
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
-![Alt text](assets/images/lighthouse.JPG)
+![Alt text](testing/lighthouse.jpg)
 
-I am not sure why the overall rating is so low but the accessibility rating looked acceptable to me.
-
+These ratings loooked acceptable to me.
 
 
 ### Deployment
@@ -239,44 +238,46 @@ OR
 
 #### Content
 
-    Images
+##### Images
+    freeimages.com
+    google image search
 
 
-
-    HTML
+##### HTML
 
     W3schools
-    My previous project (Olover St. John Gogarty) Nav bar
+    My previous project (Oliver St. John Gogarty)  - Nav bar
 
-    CSS
+##### CSS
     W3 schools
+    CI Love maths project
+    My previous project (Oliver St. John Gogarty)  - Nav bar
 
 
-    Javascript
+##### Javascript
     Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
     This was used to create the basic functions for the game which I modified and added to.
 
     Love Maths run through project - ideas for creating the score boards.
 
-    Help & Inspiration
-    
+##### Help & Inspiration
     W3 schools
-        Various tips and trick to get the css styling to work.
+    Various tips and trick to get the css styling to work.
 
     Love Maths project
-        Score board increment functions
+    Score board increment functions
 
     coder coder !
-        Organising divs and applying correct styling
+    Organising divs and applying correct styling
 
-    freecodecamp
-        Grid styling 
+    freecodecamp.org
+    Grid styling 
 
     Stack overflow
-        Misc tips and tricks with JS functoins.
+    Misc tips and tricks with JS functoins.
 
     Mozilla MDN web docs
-        Working with firefox Dev Tools
+    Working with firefox Dev Tools
 
     Code Institute Mentor, Harry Dhillon @Harry-Leepz
 
@@ -290,7 +291,7 @@ I found myself very confused at the start of this project as I did not have any 
 
 Learnings from this project
 
-I have learned to apply the basics of Jvascript to manipulate the DOM.  I have also learned to use html and css styling with more fluency than in the first project.  This has been more difficult than I thought it would be, particularly the JS. 
+I have learned to apply the basics of Javascript to manipulate the DOM.  I have also learned to use html and css styling with more fluency than in my first project.  This project has been more difficult than I thought it would be, particularly the JS. 
 
 Things I would do differently if starting again
 
