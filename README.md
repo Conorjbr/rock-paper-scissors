@@ -78,19 +78,19 @@ I felt that this was an aesthetically pleasing, artistic and interesting layout 
 
 #### Nav bar
 I added a navigation bar using an unordered list to create two links as follows ;
-
-    Home
-    Game
-
 ![Alt text](testing/nav-bar.jpg)
 
 #### Main header
+![Alt text](assets/images/main-header.JPG)
 
 #### Game instructions
+![Alt text](assets/images/game-instructions.JPG)
 
 #### How to win instructions
+![Alt text](assets/images/win-instructions.JPG)
 
-#### Scoring / Reset scores instrutions
+#### Scoring / Reset scores instructions
+![Alt text](assets/images/scores.JPG)
 
 ### Game Page
 
@@ -98,14 +98,12 @@ I added a navigation bar using an unordered list to create two links as follows 
 Added as per home page.
 
 #### Buttons for user to make choice
-
+![Alt text](assets/images/buttons.JPG)
 #### Display are for user choice, computer choice and gamre result
-
+![Alt text](assets/images/choices.JPG)
 #### Scoreboard area with reset button
+![Alt text](assets/images/scores-reset.JPG)
 
-
-
-I felt the site needed some aesthetic appeal. If time and ability allowed I would like to expand the styling of this page a lot further.
 
 I would also have liked to add a further level to the game with 5 options  (ie Rock, Paper, Scissors, Lizard, Spock) and to have the game automatically move to the higher level when a certain score was reached.  I struggled with the functions to achieve the auto level change so I decided to put thi on my list of future improvements.
 
@@ -202,7 +200,7 @@ How to Fork a Repository
     Edit the description if required
     Click on green "Create Fork" button at bottom of page
 
-Hot to Clone a Repository
+How to Clone a Repository
 
     Fork the repository using the steps above
     Above the file list, click Code (Usually green at the top right of the code window)
@@ -233,7 +231,7 @@ OR
 #### Content
 
     Images
-    
+
 
 
     HTML
