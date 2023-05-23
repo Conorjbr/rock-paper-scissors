@@ -180,6 +180,8 @@ Unfixed Bugs
 #### Lighthouse testing.
 
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
+![Alt text](assets/images/lighthouse.JPG)
+
 
 
 ### Deployment
