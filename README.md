@@ -132,7 +132,7 @@ Game page
 #### CSS
 CSS code was tested with W3C CSS validation service, results as follows
        
- ![Alt text](testing/css%20testing.jpg)
+![Alt text](testing/css-testing.jpg)
  Style.css
     
 #### Javascript
