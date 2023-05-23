@@ -1,7 +1,7 @@
 # Rock Paper Scissors
 ## A website to enable users to play a classic game of chance
 
-My goal was to create a simple game website to enable users to play the classic gamof chance, Rock-Paper-Scissors.. I chose this game because it has a simplet format and the Javascript functionality seemed to be within my skill level to achieve.  I had originally selectes another game called "Mancala" to use for my project but, after discussions with my mentor, it was clear that this would be beyond my current capabilities.
+My goal was to create a simple game website to enable users to play the classic game of chance, Rock-Paper-Scissors.. I chose this game because it has a simple format and the Javascript functionality seemed to be within my skill level to achieve.  I had originally selected another game called "Mancala" to use for my project but, after discussions with my mentor, it was clear that this would be beyond my current capabilities.
 
 View the live project here : [rock-paper-scissors](https://conorjbr.github.io/rock-paper-scissors/)
 
@@ -19,36 +19,41 @@ View the live project here : [rock-paper-scissors](https://conorjbr.github.io/ro
 ## User Experience (UX)
 
 I decided that the game should consist of two main pages, one instructions page and one game page.
-I also wanted the game to keep score of the win, lose and draws and to have a reset butt to det the scores back to zero when required.
+I also wanted the game to keep score of the win, lose and draws and to have a reset button to set the scores back to zero when required.
 
 The styling I chose was a simple layout with a number of images to illustrate the game to the left and right of the screen.  
 I styled the buttons with both icons and word descriptions.
 I picked a colour scheme with fairly high contrast and which I felt was reasonably visually pleasing.
 
 ### Target audience
-My target audience is anyone who has played this game in the real world and wants to have a bit of fun playing it online.  The game can also be used by kids (& adults!) to make a decision on an inpartial basis on such important issues as "who goes first?" , "who gets the last piece of cake?"  etc. etc. 
+My target audience is anyone who has played this game in the real world and wants to have a bit of fun playing it online.  The game can also be used by kids (& adults!) to make a decision on an impartial basis on such important issues as "who goes first?" , "who gets the last piece of cake?"  etc. etc. 
 
 
 ### First Time User
 I wanted the first time user to intuitively grasp the principles of the game and to be able to play the game, keep the scores and reset the scores with minimal instructions.
 
-As a return user I be using the scoreboard and scoreboard reset functions.
+As a return user I will be using the scoreboard and scoreboard reset functions.
 
 
 ### General design of site
 
 
-I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do. I did not use any wireframe creation sofware as I felt that the site structure was simple and my basic sketches were sufficient. See sketches below.
+I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do. I did not use any wireframe creation software as I felt that the site structure was simple and my basic sketches were sufficient. 
+
+See my wireframe sketches below.
 
 #### Wireframe preliminary sketch 1
 ![Alt text](assets/wireframes/wireframe-i.jpg)
 Home page -  small screen
+
 #### Wireframe preliminary sketch 2
 ![Alt text](assets/wireframes/wireframe-ii.jpg)
 Game page - small screen
+
 #### Wireframe preliminary sketch 3
 ![Alt text](assets/wireframes/wireframe-iii.jpg)
 Home page - large screen
+
 #### Wireframe preliminary sketch 4
 ![Alt text](assets/wireframes/wireframe-iv.jpg)
 Game page - large screeen
@@ -58,7 +63,7 @@ I added a nav bar to enable easy navigation from the home (instructions) page to
 
 ## Responsiveness
 
-I checked the URL in the "Am I Responsive" tool at Am I responsive,
+I checked the URL in the "Am I Responsive" tool at https://ui.dev/amiresponsive,
 
 See results below.
 ![Alt text](testing/responsive-test.jpg)
@@ -68,17 +73,17 @@ This checks the website responsiveness at the following screen sizes Desktop 160
 
 Overall the responsiveness looked acceptable. I also checked all pages and manipulated screen size with the DevTools to check this and found results acceptable.
 
-Following further review & discussions with fellow students and my mentor. I realised that the responsiveness of my contacts page at 360px was in fact not acceptable and I modified styling of this page further to improve this and to ensure that scores area visible while palying the game on a small screen.  I feel the responsiveness is acceptable at the various screen sizes.
+Following peer review of my completed code with fellow students and my mentor. I realised that the responsiveness of my game page at 360px was in fact not acceptable and I modified styling of this page further to improve this and to ensure that scores area visible while playing the game on a small screen.  I feel the responsiveness was then acceptable at the various screen sizes.
 
 ## Features
 
 ### Home Page
 
-I felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
+I used a basic grid layout and felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
 
 #### Nav bar
-I added a navigation bar using an unordered list to create two links as follows ;
 ![Alt text](testing/nav-bar.jpg)
+I added a navigation bar using an unordered list to create the links as above.
 
 #### Main header
 ![Alt text](assets/images/main-header.JPG)
@@ -99,13 +104,15 @@ Added as per home page.
 
 #### Buttons for user to make choice
 ![Alt text](assets/images/buttons.JPG)
-#### Display are for user choice, computer choice and gamre result
+
+#### Display area for user choice, computer choice and game result
 ![Alt text](assets/images/choices.JPG)
+
 #### Scoreboard area with reset button
 ![Alt text](assets/images/scores-reset.JPG)
 
 
-I would also have liked to add a further level to the game with 5 options  (ie Rock, Paper, Scissors, Lizard, Spock) and to have the game automatically move to the higher level when a certain score was reached.  I struggled with the functions to achieve the auto level change so I decided to put thi on my list of future improvements.
+I would also have liked to add a further level to the game with 5 options  (ie Rock, Paper, Scissors, Lizard, Spock) and to have the game automatically move to the higher level when a certain score was reached.  I struggled with the functions to achieve the auto level change so I decided to put this on my list of future improvements.
 
 
 
@@ -135,11 +142,11 @@ JS code was tested with JShint Javascript cose quality tool.
 ![Alt text](testing/jshint-testing-i.jpg)
 Script.js - first test results
 
-I was not sure what these errors meant so I did some internet searching and found a page on stack overfolw that advised taking the following action to eliminate these errors.
+I was not sure what these errors meant so I did some internet searching and found a page on stack overflow that advised taking the following action to eliminate these errors.
 
 ![Alt text](testing/js-error-solution.jpg)
 
-I pasted in this commment to the top of my js file and the errors were removes, see revised report below
+I pasted in this commment to the top of my js file and the errors were removed, see revised report below
 
 ![Alt text](testing/jshint-testing-ii.jpg)
 Script.js - second test results
@@ -187,7 +194,7 @@ Unfixed Bugs
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
 ![Alt text](testing/lighthouse.jpg)
 
-These ratings loooked acceptable to me.
+These ratings looked acceptable.
 
 
 ### Deployment
@@ -239,53 +246,53 @@ OR
 #### Content
 
 ##### Images
-    freeimages.com
-    google image search
+    1. freeimages.com
+    2. google image search
 
 
 ##### HTML
 
-    W3schools
-    My previous project (Oliver St. John Gogarty)  - Nav bar
+    1. W3schools
+    2. My previous project (Oliver St. John Gogarty)  - Nav bar
 
 ##### CSS
-    W3 schools
-    CI Love maths project
-    My previous project (Oliver St. John Gogarty)  - Nav bar
+    1. W3 schools
+    2. CI Love maths project
+    3. My previous project (Oliver St. John Gogarty)  - Nav bar
 
 
 ##### Javascript
-    Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
+    1. Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
     This was used to create the basic functions for the game which I modified and added to.
 
-    Love Maths run through project - ideas for creating the score boards.
+    2. Love Maths run through project - ideas for creating the score boards.
 
 ##### Help & Inspiration
-    W3 schools
+    1. W3 schools
     Various tips and trick to get the css styling to work.
 
-    Love Maths project
+    2. Love Maths project
     Score board increment functions
 
-    coder coder !
+    3. coder coder !
     Organising divs and applying correct styling
 
-    freecodecamp.org
+    4. freecodecamp.org
     Grid styling 
 
-    Stack overflow
+    5. Stack overflow
     Misc tips and tricks with JS functoins.
 
-    Mozilla MDN web docs
+    6. Mozilla MDN web docs
     Working with firefox Dev Tools
 
-    Code Institute Mentor, Harry Dhillon @Harry-Leepz
+    7. Code Institute Mentor, Harry Dhillon @Harry-Leepz
 
-    Code institute alumni and students (via Slack chat)
+    8. Code institute alumni and students (via Slack chat)
 
-    Code Institute tutoring services
+    9. Code Institute tutoring services
 
-Project Conclusions
+### Project Conclusions
 
 I found myself very confused at the start of this project as I did not have any previous experience of Javascript and found the course lessons and challenges very difficult as I worked through them. I found that I learned a lot about this language very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about Javascript and about how to approach putting together a coding project. I am now keen to put this knowledge to further use.
 
@@ -295,16 +302,16 @@ I have learned to apply the basics of Javascript to manipulate the DOM.  I have 
 
 Things I would do differently if starting again
 
-Watch more Youtube videos and JS guides and tutorials outside of the course.
-Not get so stuck in completing all of the lesson challenges as these took a long time and I don't think I learned a lot from them in to get this project completed.  I plan to go through the lessons again now using the experience with JS that I have gained from the project.
+I would watch more Youtube videos and JS guides and tutorials outside of the course.
+I would not get so stuck on completing all of the lesson challenges as these took a long time and I don't think I learned a lot from them in to get this project completed.  I plan to go through the lessons again now using the experience with JS that I have gained from the project.
 
 
-Future improvements to the site
+#### Future improvements to the site
 
 I would like to add the extrac game levels and enable automatic change of game level when a certain number of "wins" is scored.  I would also like to experiment further with more sophisticated styling of the game elements.
 
 
-Acknowledgements & thanks
+#### Acknowledgements & thanks
 
 Thanks to the tutors at code institute and my mentor Harry Dhillon for their help with getting this project over the line. Also thanks to my fellow code institute students and alumni who assisted me so much via slack messages and calls. I had not realised there was such a great community of coders out there. You are all a truly great bunch of people and I hope I can be helpful to other students in the same way in the future.
 
