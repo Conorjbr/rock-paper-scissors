@@ -112,30 +112,38 @@ I would also have liked to add a further level to the game with 5 options  (ie R
 ## Testing
 
 ### Validator Testing
-HTML tested with W3C markup validation service
-CSS tested with W3C CSS validation service
 
 #### HTML
+HTML code was tested with W3C markup validation service, results as follows
 
-    A number of errors were found in the HTML code as noted below.
-![Alt text](testing/html%20testing.jpg)
-        
-    These were addressed and corrected and the final outputs from validator are as follows
+![Alt text](testing/index-validation.jpg)
+Home page
 
-    Home page
+![Alt text](testing/game-validation.jpg)
+Game page
 
-
-
-    Game Page
-
+#### CSS
+CSS code was tested with W3C CSS validation service, results as follows
+       
+ ![Alt text](testing/css%20testing.jpg)
+ Style.css
     
-    Style.css
-![Alt text](testing/css%20testing.jpg)
-    
+#### Javascript
+JS code was tested with JShint Javascript cose quality tool.
+13 errors were shown in the test result as follows
 
-    
-    script.js
-![Alt text](testing/jshint-testing.jpg)
+![Alt text](testing/jshint-testing-i.jpg)
+Script.js - first test results
+
+I was not sure what these errors meant so I did some internet searching and found a page on stack overfolw that advised taking the following action to eliminate these errors.
+
+![Alt text](testing/js-error-solution.jpg)
+
+I pasted in this commment to the top of my js file and the errors were removes, see revised report below
+
+![Alt text](testing/jshint-testing-ii.jpg)
+Script.js - second test results
+
 
 ### Manual Testing
 
@@ -143,7 +151,6 @@ CSS tested with W3C CSS validation service
 
         Verify that all the links link to the correct pages and there are no broken links,
             test result - pass
-
         Verify that hover effects work consistently on all links,
             test result - pass
 
@@ -151,10 +158,8 @@ CSS tested with W3C CSS validation service
 
         Verify that images are not pixellated and responsive at the required screen sizes,
             test result - pass
-
         Verify that all text is legible and divided into organised paragraphs
             test result - pass
-
         Verify that game page link is working and link to correct external site,
             test result - pass
 
@@ -181,6 +186,8 @@ Unfixed Bugs
 
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
 ![Alt text](assets/images/lighthouse.JPG)
+
+I am not sure why the overall rating is so low but the accessibility rating looked acceptable to me.
 
 
 
