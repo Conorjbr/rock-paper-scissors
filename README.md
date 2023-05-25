@@ -19,11 +19,11 @@ View the live project here : [rock-paper-scissors](https://conorjbr.github.io/ro
 ## User Experience (UX)
 
 I decided that the game should consist of two main pages, one instructions page and one game page.
-I also wanted the game to keep score of the win, lose and draws and to have a reset button to set the scores back to zero when required.
+I also wanted the game to keep score of the wins, loses and draws and to have a reset button to set the scores back to zero when required.
 
 The styling I chose was a simple layout with a number of images to illustrate the game to the left and right of the screen.  
 I styled the buttons with both icons and word descriptions.
-I picked a colour scheme with fairly high contrast and which I felt was reasonably visually pleasing.
+I picked a colour scheme with fairly high contrast and which I felt was visually pleasing to the user.
 
 ### Target audience
 My target audience is anyone who has played this game in the real world and wants to have a bit of fun playing it online.  The game can also be used by kids (& adults!) to make a decision on an impartial basis on such important issues as "who goes first?" , "who gets the last piece of cake?"  etc. etc. 
@@ -38,7 +38,7 @@ As a return user I will be using the scoreboard and scoreboard reset functions.
 ## General design of site
 
 
-I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do. I did not use any wireframe creation software as I felt that the site structure was simple and my basic sketches were sufficient. 
+I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding.  This was a very useful exercise to do. I did not use any wireframe creation software as I felt that the site structure was simple and my basic sketches were sufficient. 
 
 See my wireframe sketches below.
 
@@ -59,7 +59,7 @@ Home page - large screen
 Game page - large screeen
 
 I used a basic style layout to make a visually attractive and easily navigable site.
-I added a nav bar to enable easy navigation from the home (instructions) page to the game page and back again.  I did not add a clickable page header as I felt that this ws not necessary for the effective operation of the site,
+I added a nav bar to enable easy navigation from the home (instructions) page to the game page and back again.  I did not add a clickable page header as I felt that this ws not necessary for the effective operation of the site.
 
 ## Responsiveness
 
@@ -69,11 +69,11 @@ See results below.
 ![Alt text](testing/responsive-test.jpg)
 
 
-This checks the website responsiveness at the following screen sizes Desktop 1600x992px scaled down to scale(0.3181) Laptop 1280x802px scaled down to scale(0.277) Tablet 768x1024px scaled down to scale(0.219) Mobile 320x480px scaled down to scale(0.219)
+This checks the website responsiveness at the following screen sizes Desktop 1600x992px scaled down to scale(0.3181) Laptop 1280x802px scaled down to scale(0.277) Tablet 768x1024px scaled down to scale(0.219) Mobile 320x480px scaled down to scale(0.219).
 
-Overall the responsiveness looked acceptable. I also checked all pages and manipulated screen size with the DevTools to check this and found results acceptable.
+Overall the responsiveness looked good to me. I also checked all pages and manipulated screen size with the DevTools to check this and found the results acceptable.
 
-Following peer review of my completed code with fellow students and my mentor. I realised that the responsiveness of my game page at 360px was in fact not acceptable and I modified styling of this page further to improve this and to ensure that scores area visible while playing the game on a small screen.  I feel the responsiveness was then acceptable at the various screen sizes.
+Following peer review of my completed code with fellow students and my mentor. I realised that the responsiveness of my game page at 360px was in fact not acceptable and I modified styling of this page further to improve this and to ensure that scores area is visible while playing the game on a small screen.  I feel the responsiveness was then a lot better at the various screen sizes.
 
 ## Features
 
@@ -82,7 +82,6 @@ Following peer review of my completed code with fellow students and my mentor. I
 I used a basic grid layout and felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
 
 #### Nav bar
-I added a navigation bar using an unordered list to create the links as above.
 ![Alt text](testing/nav-bar.jpg)
 
 #### Main header
@@ -113,8 +112,6 @@ Added as per home page.
 
 
 I would also have liked to add a further level to the game with 5 options  (ie Rock, Paper, Scissors, Lizard, Spock) and to have the game automatically move to the higher level when a certain score was reached.  I struggled with the functions to achieve the auto level change so I decided to put this on my list of future improvements.
-
-
 
 ## Testing
 
@@ -157,32 +154,32 @@ Script.js - second test results
 ##### Navigation Menu
 
 * Verify that all the links link to the correct pages and there are no broken links,
-    test result - pass
+    **test result - pass**
 * Verify that hover effects work consistently on all links,
-    test result - pass
+    **test result - pass**
 
 ##### Home Page
 
 * Verify that images are not pixellated and responsive at the required screen sizes,
-    test result - pass
+    **test result - pass**
 * Verify that all text is legible and divided into organised paragraphs
-    test result - pass
+    **test result - pass**
 * Verify that game page link is working and link to correct external site,
-    test result - pass
+    **test result - pass**
 
 ##### Game page
 * Verify that game page link is working and link to correct external site,
-    test result - pass
+    **test result - pass**
 * Verify that game choices operate correctly.
-    test result - pass
+    **test result - pass**
 * Verify that computer choices operate correctly.
-    test result - pass
+    **test result - pass**
 * Verify that reult calulation works and is diplayed correctly.
-    test result - pass
+    **test result - pass**
 * Verify that scoreboard increments "win, "lose" & "draw" as appropriate.
-    test result - pass
+    **test result - pass**
 * Verify that score rest button sets all scores back to 0.
-    test result - pass
+    **test result - pass**
        
 ### Unfixed Bugs
 
@@ -196,7 +193,7 @@ I ran each page of the site through the chrome lighthouse testing system. Result
 
 ![Alt text](testing/lighthouse.jpg)
 
-These ratings looked acceptable.
+These ratings looked good to me.
 
 
 ## Deployment
@@ -265,10 +262,10 @@ Once the master branch has been selected, the page will be automatically refresh
 
 
 ##### Javascript
-1. [Youtube tutorial](https://www.youtube.com/watch?v=ec8vSKJuZTk)
-    This was used to create the basic functions for the game which I modified and added to.
+1. [Ania Kubow - Youtube tutorial](https://www.youtube.com/watch?v=ec8vSKJuZTk)
+    This was used to create the basic functions for the game which I also modified and added to.
 
-2. Love Maths run through project - ideas for creating the score boards.
+2. CI Love Maths run through project - ideas for creating the score boards.
 
 ##### Help & Inspiration
 
@@ -310,7 +307,7 @@ I would not get so stuck on completing all of the lesson challenges as these too
 
 #### Future improvements to the site
 
-I would like to add the extrac game levels and enable automatic change of game level when a certain number of "wins" is scored.  I would also like to experiment further with more sophisticated styling of the game elements.
+I would like to add the extra game levels and enable automatic change of game level when a certain number of "wins" is scored.  I would also like to experiment further with more sophisticated styling of the game elements.
 
 
 #### Acknowledgements & thanks
