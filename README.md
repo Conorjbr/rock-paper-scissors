@@ -203,19 +203,19 @@ The live link can be found here - https://conorjbr.github.io/rock-paper-scissors
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-    In the GitHub repository, navigate to the Settings tab
-    From the source section drop-down menu, select the Master Branch
-    Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-How to Fork a Repository
+* How to Fork a Repository
 
-    In the GitHUb repository, click the "fork" tab at top right of page
-    Check the fork name is correct
-    Select an owner for the forked repository
-    Edit the description if required
-    Click on green "Create Fork" button at bottom of page
+In the GitHUb repository, click the "fork" tab at top right of page
+Check the fork name is correct
+Select an owner for the forked repository
+Edit the description if required
+Click on green "Create Fork" button at bottom of page
 
-How to Clone a Repository
+* How to Clone a Repository
 
     Fork the repository using the steps above
     Above the file list, click Code (Usually green at the top right of the code window)
@@ -225,7 +225,7 @@ How to Clone a Repository
     Type git clone and then paste the URL you copied in step 4
     Press Enter to create your clone
 
-How to Make a Local Clone
+* How to Make a Local Clone
 
     Under the repository name, above the list of files, click Code
     Here you will have two options, Clone or Download the repository
@@ -246,26 +246,27 @@ OR
 #### Content
 
 ##### Images
-    1. freeimages.com
-    2. google image search
 
+1. freeimages.com
+2. google image search
 
 ##### HTML
 
-    1. W3schools
-    2. My previous project (Oliver St. John Gogarty)  - Nav bar
+1. W3schools
+2. My previous project (Oliver St. John Gogarty)  - Nav bar
 
 ##### CSS
-    1. W3 schools
-    2. CI Love maths project
-    3. My previous project (Oliver St. John Gogarty)  - Nav bar
+
+1. W3 schools
+2. CI Love maths project
+3. My previous project (Oliver St. John Gogarty)  - Nav bar
 
 
 ##### Javascript
-    1. Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
+1. Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
     This was used to create the basic functions for the game which I modified and added to.
 
-    2. Love Maths run through project - ideas for creating the score boards.
+2. Love Maths run through project - ideas for creating the score boards.
 
 ##### Help & Inspiration
 
@@ -276,23 +277,20 @@ OR
 3. coder coder !
     Organising divs and applying correct styling
 
-    3. coder coder !
-    Organising divs and applying correct styling
-
-    4. freecodecamp.org
+4. freecodecamp.org
     Grid styling 
 
-    5. Stack overflow
-    Misc tips and tricks with JS functoins.
+5. Stack overflow
+    Misc tips and tricks with JS functions.
 
-    6. Mozilla MDN web docs
+6. Mozilla MDN web docs
     Working with firefox Dev Tools
 
-    7. Code Institute Mentor, Harry Dhillon @Harry-Leepz
+7. Code Institute Mentor, Harry Dhillon @Harry-Leepz
 
-    8. Code institute alumni and students (via Slack chat)
+8. Code institute alumni and students (via Slack chat)
 
-    9. Code Institute tutoring services
+9. Code Institute tutoring services
 
 ### Project Conclusions
 
