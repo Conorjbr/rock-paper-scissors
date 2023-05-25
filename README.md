@@ -268,11 +268,13 @@ OR
     2. Love Maths run through project - ideas for creating the score boards.
 
 ##### Help & Inspiration
-    1. W3 schools
-    Various tips and trick to get the css styling to work.
 
-    2. Love Maths project
+1. W3 schools
+    Various tips and trick to get the css styling to work.
+2. Love Maths project
     Score board increment functions
+3. coder coder !
+    Organising divs and applying correct styling
 
     3. coder coder !
     Organising divs and applying correct styling
