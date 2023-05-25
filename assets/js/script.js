@@ -70,9 +70,7 @@ function getResult() {
 }
 
 //Scoreboard functions
-//Takes current user score from the DOM and increments it by 1
 //I have borrowed some of the functions to run this from the CI "Love Maths" walk-through project and ammended and modifirf with my own code.
-
 //Takes current user score from the DOM and increments it by 1
 function incrementWin(){
 let oldScore = parseInt(document.getElementById("score").innerText);
