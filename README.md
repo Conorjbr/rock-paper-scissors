@@ -317,4 +317,4 @@ Thanks to the tutors at code institute and my mentor Harry Dhillon for their hel
 
 Note : This project was made purely for educational purposes and not for any financial gain.
 
-[BACK TO TOP](#Rock Paper Scissors)
+[BACK TO TOP](#Rock-Paper-Scissors)
