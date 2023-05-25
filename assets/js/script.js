@@ -1,9 +1,9 @@
+/* jshint esversion: 6 */
 /* This script was created using the following tutorial:
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWVENnNobUVYTFFkVmxFajVDLVFHaEpWTVdzQXxBQ3Jtc0ttTXZfQjkyLWxNQy0xS3NmcExxUThBaWtnZjBvVWtRTmlZQzlOVk9wbTMxZHpBZkpweVNaajRhU3c1ei1xREdEVUI1d1dqdUdmMEZhNmR5MVF5c0xnOEtNSk5JdjhhWV90TFR0VDh1X1c4VFRjZE5Nbw&q=https%3A%2F%2Fgithub.com%2Fkubowania%2Frock-paper-scissors-x3&v=ec8vSKJuZTk
 I have used some of the code from this tutorial to help with creation of the game.
 and I have also personalised some of this code and added to it & crated my own styling.
 */
-
 //Set up main game variables
 const computerChoiceDisplay = document.getElementById('computer-choice');
 const userChoiceDisplay = document.getElementById('user-choice');
@@ -13,22 +13,17 @@ let userChoice;
 let computerChoice;
 let result;
 
-
-//Event listener for user choice
+//Select user choice
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id;
     userChoiceDisplay.innerHTML = userChoice;
     generateComputerChoice();
     getResult();
   })) ;
-  
 
-//Game functions
-
-//Function, uses random numbers to create and display the computer's choice for the game
+//Use random numbers to create and display the computer's choice for the game
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3) + 1 ;
-  
   if (randomNumber === 1) {
     computerChoice = 'rock';
   }
@@ -54,8 +49,7 @@ function getResult() {
   if (computerChoice === 'rock' && userChoice === "scissors") {
     result = 'you lost!';
     incrementLose();
-    
-  }
+   }
   if (computerChoice === 'paper' && userChoice === "scissors") {
     result = 'you win!';
     incrementWin();  
@@ -73,8 +67,8 @@ function getResult() {
     incrementLose();
   }
     resultDisplay.innerHTML = result;
-
 }
+
 //Scoreboard functions
 //Takes current user score from the DOM and increments it by 1
 //I have borrowed some of the functions to run this from the CI "Love Maths" walk-through project and ammended and modifirf with my own code.
@@ -98,7 +92,6 @@ document.getElementById("draw").innerText = ++oldScore;
 }  
 
 //Reset scores button, resets all scores to 0
-//Event listener for reset button
 document.getElementById("reset-button").addEventListener("click", resetScore);
 function resetScore(){
   document.getElementById("score").innerText = 0;
@@ -108,7 +101,3 @@ function resetScore(){
 
 
 
-
-
-//Game level change functions
-//These are to be added as future upgrade to 5-option game , see Readme file
