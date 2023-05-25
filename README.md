@@ -14,7 +14,7 @@ View the live project here : [rock-paper-scissors](https://conorjbr.github.io/ro
     5. Testing
     6. Deployment
     7. Credits
-    8. [Conclusions](###Project-Conclusions)
+    8. Conclusions
 
 ## User Experience (UX)
 
@@ -82,8 +82,8 @@ Following peer review of my completed code with fellow students and my mentor. I
 I used a basic grid layout and felt that this was an aesthetically pleasing, artistic and interesting layout for the user to begin their interaction with the site.
 
 #### Nav bar
-![Alt text](testing/nav-bar.jpg)
 I added a navigation bar using an unordered list to create the links as above.
+![Alt text](testing/nav-bar.jpg)
 
 #### Main header
 ![Alt text](assets/images/main-header.JPG)
@@ -136,7 +136,7 @@ CSS code was tested with W3C CSS validation service, results as follows
  Style.css
     
 #### Javascript
-JS code was tested with JShint Javascript cose quality tool.
+JS code was tested with JShint Javascript code quality tool.
 13 errors were shown in the test result as follows
 
 ![Alt text](testing/jshint-testing-i.jpg)
@@ -156,39 +156,40 @@ Script.js - second test results
 
 ##### Navigation Menu
 
-        Verify that all the links link to the correct pages and there are no broken links,
-            test result - pass
-        Verify that hover effects work consistently on all links,
-            test result - pass
+* Verify that all the links link to the correct pages and there are no broken links,
+    test result - pass
+* Verify that hover effects work consistently on all links,
+    test result - pass
 
 ##### Home Page
 
-        Verify that images are not pixellated and responsive at the required screen sizes,
-            test result - pass
-        Verify that all text is legible and divided into organised paragraphs
-            test result - pass
-        Verify that game page link is working and link to correct external site,
-            test result - pass
+* Verify that images are not pixellated and responsive at the required screen sizes,
+    test result - pass
+* Verify that all text is legible and divided into organised paragraphs
+    test result - pass
+* Verify that game page link is working and link to correct external site,
+    test result - pass
 
 ##### Game page
-       Verify that game page link is working and link to correct external site,
-            test result - pass
-        Verify that game choices operate correctly.
-            test result - pass
-        Verify that computer choices operate correctly.
-            test result - pass
-        Verify that reult calulation works and is diplayed correctly.
-            test result - pass
-        Verify that scoreboard increments "win, "lose" & "draw" as appropriate.
-            test result - pass
-        Verify that score rest button sets all scores back to 0.
-            test result - pass
+* Verify that game page link is working and link to correct external site,
+    test result - pass
+* Verify that game choices operate correctly.
+    test result - pass
+* Verify that computer choices operate correctly.
+    test result - pass
+* Verify that reult calulation works and is diplayed correctly.
+    test result - pass
+* Verify that scoreboard increments "win, "lose" & "draw" as appropriate.
+    test result - pass
+* Verify that score rest button sets all scores back to 0.
+    test result - pass
        
-Unfixed Bugs
+### Unfixed Bugs
 
     None
 
 ### Accessibility Testing
+
 #### Lighthouse testing.
 
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
@@ -319,3 +320,4 @@ Thanks to the tutors at code institute and my mentor Harry Dhillon for their hel
 Note : This project was made purely for educational purposes and not for any financial gain.
 
 [BACK TO TOP](#Rock-Paper-Scissors)
+[Contents](##Contents)
