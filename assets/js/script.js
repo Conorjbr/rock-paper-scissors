@@ -98,6 +98,3 @@ function resetScore(){
   document.getElementById("c-score").innerText = 0;
   document.getElementById("draw").innerText = 0;
 }
-
-
-
