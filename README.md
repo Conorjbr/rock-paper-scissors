@@ -35,7 +35,7 @@ I wanted the first time user to intuitively grasp the principles of the game and
 As a return user I will be using the scoreboard and scoreboard reset functions.
 
 
-### General design of site
+## General design of site
 
 
 I did some preliminary rough wireframe sketches of the proposed site layout before commencing my html coding and this was a very useful exercise to do. I did not use any wireframe creation software as I felt that the site structure was simple and my basic sketches were sufficient. 
@@ -199,7 +199,7 @@ I ran each page of the site through the chrome lighthouse testing system. Result
 These ratings looked acceptable.
 
 
-### Deployment
+## Deployment
 
 The live link can be found here - https://conorjbr.github.io/rock-paper-scissors/
 
@@ -243,7 +243,7 @@ Once the master branch has been selected, the page will be automatically refresh
     Download ZIP file
     Create a new repository using downloaded ZIP file.
 
-### Credits
+## Credits
 
 #### Content
 
@@ -294,7 +294,7 @@ Once the master branch has been selected, the page will be automatically refresh
 
 9. Code Institute tutoring services
 
-### Project Conclusions
+## Project Conclusions
 
 I found myself very confused at the start of this project as I did not have any previous experience of Javascript and found the course lessons and challenges very difficult as I worked through them. I found that I learned a lot about this language very quickly while working through the various challenges to get the project completed. I have definitely learned a lot about Javascript and about how to approach putting together a coding project. I am now keen to put this knowledge to further use.
 
