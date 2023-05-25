@@ -14,7 +14,7 @@ View the live project here : [rock-paper-scissors](https://conorjbr.github.io/ro
     5. Testing
     6. Deployment
     7. Credits
-    8. Conclusions
+    8. [Conclusions](###Project-Conclusions)
 
 ## User Experience (UX)
 
@@ -192,6 +192,7 @@ Unfixed Bugs
 #### Lighthouse testing.
 
 I ran each page of the site through the chrome lighthouse testing system. Results for overall site are as per below. 
+
 ![Alt text](testing/lighthouse.jpg)
 
 These ratings looked acceptable.
@@ -209,11 +210,11 @@ Once the master branch has been selected, the page will be automatically refresh
 
 * How to Fork a Repository
 
-In the GitHUb repository, click the "fork" tab at top right of page
-Check the fork name is correct
-Select an owner for the forked repository
-Edit the description if required
-Click on green "Create Fork" button at bottom of page
+    In the GitHUb repository, click the "fork" tab at top right of page
+    Check the fork name is correct
+    Select an owner for the forked repository
+    Edit the description if required
+    Click on green "Create Fork" button at bottom of page
 
 * How to Clone a Repository
 
@@ -236,7 +237,7 @@ Click on green "Create Fork" button at bottom of page
     Type git clone and then paste the URL
     Press Enter, to create local clone to chosen directory
 
-OR
+    OR
 
     Download ZIP file
     Create a new repository using downloaded ZIP file.
@@ -263,7 +264,7 @@ OR
 
 
 ##### Javascript
-1. Youtube tutorial at : https://www.youtube.com/watch?v=ec8vSKJuZTk
+1. [Youtube tutorial](https://www.youtube.com/watch?v=ec8vSKJuZTk)
     This was used to create the basic functions for the game which I modified and added to.
 
 2. Love Maths run through project - ideas for creating the score boards.
