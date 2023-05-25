@@ -7,14 +7,14 @@ View the live project here : [rock-paper-scissors](https://conorjbr.github.io/ro
 
 ## Contents
 
-    1. User Experience (UX)
-    2. General site design
-    3. Responsivenes
-    4. Features
-    5. Testing
-    6. Deployment
-    7. Credits
-    8. Conclusions
+1. User Experience (UX)
+2. General site design
+3. Responsivenes
+4. Features
+5. Testing
+6. Deployment
+7. Credits
+8. Conclusions
 
 ## User Experience (UX)
 
@@ -124,23 +124,23 @@ I would also have liked to add a further level to the game with 5 options  (ie R
 HTML code was tested with W3C markup validation service, results as follows
 
 ![Alt text](testing/index-validation.jpg)
-Home page
+##### Home page
 
 ![Alt text](testing/game-validation.jpg)
-Game page
+##### Game page
 
 #### CSS
 CSS code was tested with W3C CSS validation service, results as follows
        
 ![Alt text](testing/css-testing.jpg)
- Style.css
+##### Style.css
     
 #### Javascript
 JS code was tested with JShint Javascript code quality tool.
 13 errors were shown in the test result as follows
 
 ![Alt text](testing/jshint-testing-i.jpg)
-Script.js - first test results
+##### Script.js - first test results
 
 I was not sure what these errors meant so I did some internet searching and found a page on stack overflow that advised taking the following action to eliminate these errors.
 
@@ -320,4 +320,4 @@ Thanks to the tutors at code institute and my mentor Harry Dhillon for their hel
 Note : This project was made purely for educational purposes and not for any financial gain.
 
 [BACK TO TOP](#Rock-Paper-Scissors)
-[Contents](##Contents)
+
