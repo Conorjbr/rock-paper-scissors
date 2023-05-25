@@ -19,6 +19,7 @@
   font-size: 20px;
   text-align: left;
   justify-content: center;
+  list-style-type: none;
 }
 
 /*nav menu*/
@@ -72,6 +73,7 @@ button {
   border-radius: 20px;
   text-align: center;
 }
+
 
 /*Game images, rock, paper & scissors*/
 img {
@@ -129,7 +131,7 @@ body {
     margin: 5px;
   }
 
-  .grid-item,
+  .grid-item,2.	Rev
   .score-area {
     padding: 0px;
     font-size: 15px;
